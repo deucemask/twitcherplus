@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_search"
+        android:orderInCategory="5"
+        android:title="Search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+
+
+    <item android:id="@+id/miWrite" android:title="Write"
+        android:icon="@drawable/ic_write" android:orderInCategory="6"
+        app:showAsAction="ifRoom"></item>
+
+    <item android:id="@+id/miProfile" android:title="Profile"
+        android:icon="@drawable/ic_profile" android:orderInCategory="100"
+        app:showAsAction="ifRoom"></item>
+
+
+
+</menu>
